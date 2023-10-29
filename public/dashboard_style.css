@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    background: linear-gradient(45deg, #3b3b55, #e6b1aa);
+    background: #e91e63;
     color: #fff;
     text-align: center;
     padding: 20px;
@@ -60,7 +60,7 @@ select {
 }
 
 .start-monitoring {
-    background: linear-gradient(45deg, #3498db, #351b18);
+    background: #ffd700;
     color: #fff;
     padding: 12px 20px;
     border: none;
@@ -70,7 +70,7 @@ select {
 }
 
 .start-monitoring:hover {
-    background: linear-gradient(45deg, #e74c3c, #080d11);
+    background: #e0e0e0;
 }
 
 .content {
@@ -101,7 +101,7 @@ overflow:visible;
 }
 
 .main-menu {
-background:#212121;
+background: #001f3f;
 border-right:1px solid #e5e5e5;
 position:fixed;
 top:0;
@@ -195,7 +195,7 @@ padding:0;
 }
 .main-menu li:hover>a,nav.main-menu li.active>a,.dropdown-menu>li>a:hover,.dropdown-menu>li>a:focus,.dropdown-menu>.active>a,.dropdown-menu>.active>a:hover,.dropdown-menu>.active>a:focus,.no-touch .dashboard-page nav.dashboard-menu ul li:hover a,.dashboard-page nav.dashboard-menu ul li.active a {
 color:#fff;
-background-color:#000000;
+background-color:#e0e0e0;
 }
 .area {
 float: left;
