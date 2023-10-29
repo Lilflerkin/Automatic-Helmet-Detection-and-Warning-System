@@ -35,7 +35,7 @@ form{
 
 body {
     font-family: 'Open Sans', sans-serif;
-    background-image: url('assets/login.png');
+    background-image: url('/assets/login_bg.png');
     background-size: cover;
     background-repeat: no-repeat;
 }
