@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+ /* body{
+    font-family: 'Open Sans',sans-serif;
+    background-image: url('/assets/login.png');
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.center-div {
+    padding-top: 12.5%;
+}
+
+.text-center.center-div{
+    padding-left: 600px;
+    margin-right: -260px;
+    
+}
+
+.btn.btn-success{
+    padding: .4em 2em;
+}
+
+form{
+    padding: 0 3em;
+}
+
+#login .title > span{
+    font-size: .8em;
+}
+  */
+/* Reset some default browser styles */
+/* Reset some default browser styles */
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-image: url('/assets/2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.center-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.container {
+    width: 30%; /* Adjust the width to your desired size */
+    background-color: #fff;
+    border: 2px solid #ccc; /* Increased border thickness for visibility */
+    border-radius: 20px; /* Larger border radius for rounded corners */
+    padding: 30px; /* Increased padding for more space inside the container */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Increased box shadow for depth */
+    margin-left: 1100px;
+    margin-bottom: 100px;
+}
+
+.title h2 {
+    font-weight: bold;
+    font-size: 36px; /* Larger font size for the title */
+}
+
+.title span {
+    font-size: 18px; /* Larger font size for the subtitle */
+}
+
+.alter {
+    padding: 15px; /* Increased padding for the buttons */
+    margin: 15px 0;
+    border: 2px solid #2ecc71; /* Increased border thickness for the buttons */
+    background-color: #2ecc71;
+    color: #fff;
+    border-radius: 10px; /* Larger border radius for rounded buttons */
+}
+
+form {
+    padding: 0 2em; /* Increased form padding for more space */
+}
+
+.form-group {
+    margin-bottom: 30px; /* Increased margin between form groups */
+}
+
+.form-group input {
+    width: 100%;
+    padding: 15px; /* Larger padding for input fields */
+    border: 2px solid #ccc; /* Increased border thickness for input fields */
+    border-radius: 10px; /* Larger border radius for rounded input fields */
+    font-size: 20px; /* Larger font size for input text */
+}
+
+.form-group input::placeholder {
+    font-size: 18px; /* Larger font size for placeholders */
+}
+
+.form-group small {
+    font-size: 16px; /* Larger font size for small text */
+}
+
+.btn.btn-success {
+    width: 100%;
+    padding: 15px; /* Larger padding for buttons */
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 20px; /* Larger border radius for rounded buttons */
+    cursor: pointer;
+    font-size: 20px; /* Larger font size for button text */
+}
+
+.btn.btn-success:hover {
+    background-color: #1d9238;
+}
