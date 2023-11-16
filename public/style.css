@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
-
-
-
 body {
     font-family: 'Open Sans', sans-serif;
     background-image: url('assets/login.png');
@@ -15,73 +12,81 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-
 }
 
 .container {
-    width: 30%; /* Adjust the width to your desired size */
+    width: 30%;
     background-color: #fff;
-    border: 2px solid #ccc; /* Increased border thickness for visibility */
-    border-radius: 20px; /* Larger border radius for rounded corners */
-    padding: 30px; /* Increased padding for more space inside the container */
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Increased box shadow for depth */
-    margin-left: 1100px;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    margin-left: 1100px; /* Adjust the margin-left to shift the container to the right */
     margin-bottom: 100px;
 }
 
 .title h2 {
     font-weight: bold;
-    font-size: 36px; /* Larger font size for the title */
+    font-size: 36px;
 }
 
 .title span {
-    font-size: 18px; /* Larger font size for the subtitle */
+    font-size: 18px;
 }
 
 .alter {
-    padding: 15px; /* Increased padding for the buttons */
+    padding: 15px;
     margin: 15px 0;
-    border: 2px solid #2ecc71; /* Increased border thickness for the buttons */
+    border: 2px solid #2ecc71;
     background-color: #2ecc71;
     color: #fff;
-    border-radius: 10px; /* Larger border radius for rounded buttons */
+    border-radius: 10px;
 }
 
 form {
-    padding: 0 2em; /* Increased form padding for more space */
+    padding: 0 2em;
 }
 
 .form-group {
-    margin-bottom: 30px; /* Increased margin between form groups */
+    margin-bottom: 30px;
 }
 
 .form-group input {
     width: 100%;
-    padding: 15px; /* Larger padding for input fields */
-    border: 2px solid #ccc; /* Increased border thickness for input fields */
-    border-radius: 10px; /* Larger border radius for rounded input fields */
-    font-size: 20px; /* Larger font size for input text */
+    padding: 15px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    font-size: 20px;
 }
 
 .form-group input::placeholder {
-    font-size: 18px; /* Larger font size for placeholders */
+    font-size: 18px;
 }
 
 .form-group small {
-    font-size: 16px; /* Larger font size for small text */
+    font-size: 16px;
 }
 
 .btn.btn-success {
     width: 100%;
-    padding: 15px; /* Larger padding for buttons */
+    padding: 15px;
     background-color: #28a745;
     color: #fff;
     border: none;
-    border-radius: 20px; /* Larger border radius for rounded buttons */
+    border-radius: 20px;
     cursor: pointer;
-    font-size: 20px; /* Larger font size for button text */
+    font-size: 20px;
 }
 
 .btn.btn-success:hover {
     background-color: #1d9238;
+}
+
+/* Media Queries for responsiveness */
+@media screen and (max-width: 768px) {
+    .container {
+        width: 90%;
+        margin-left: auto; /* Center the container on smaller screens */
+        margin-right: auto;
+    }
 }
